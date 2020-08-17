@@ -10,7 +10,7 @@ Scenario: Report visitor trends during a week of operation
 
 Scenario: Alert when seating capacity is full
 
-  Given I have an alert sytem and "seating capacity counter"
+  Given I have an alert system and "seating capacity counter"
   sensor which is working
   When I find "seating capacity counter" equals maximum capacity
   Then I start alert system
