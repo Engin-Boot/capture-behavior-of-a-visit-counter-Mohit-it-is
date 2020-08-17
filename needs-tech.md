@@ -7,7 +7,7 @@ that runs the visit-counter
   with server "visit-counter"
   When I find local "visit-counter" is not equal to
   server "visit-counter"
-  Then I perfrom synchronization
+  Then I perform synchronization
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
