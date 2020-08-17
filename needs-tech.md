@@ -13,4 +13,4 @@ Scenario: Reconcile counts if the sensor is offline for a while
 
   Given I have backup sensor and primary sensor for "visit-counter"
   When primary sensor goes offline
-  Then Run backup sensor 
+  Then Run backup sensor
